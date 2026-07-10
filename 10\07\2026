@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Introduction Page</title>
+</head>
+<body>
+    <h1>Kapilariharan</h1>
+    <img src="C:\desktop\Pictures\downloads\ME.jpeg" width="200" height="250">
+    <p>
+        Hi My name is Kapil Hariharan.
+        I am pursuing my MCA in rathinam technical campus.
+    </p>
+    <h2>My Hobbies</h2>
+    <ul>
+        
+        
+        <li>Listening to Music</li>
+        <li>Learning Programming</li>
+        <li>Playing games</li>
+        <li>Watching Anime</li>
+        <li>Going to the Gym</li>
+    </ul>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(10, 10, 10);
+            background-color: rgb(247, 245, 141);
+        }
+        img{
+            width: 200px;
+            height: 250px;
+        }
+        h2{
+            font-size: xx-large;
+            color: rgb(69, 2, 2);
+        }
+        h1{
+            font-size: xx-large;
+            color: rgb(69, 2, 2);
+        }
+        ul:hover{
+            background-color: blanchedalmond;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</body>
+</html>
