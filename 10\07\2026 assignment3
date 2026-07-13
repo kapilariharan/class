@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Card</title>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <img src="C:\Users\user\OneDrive\Pictures\Screenshots\Screenshot 2026-07-13 120700.png" alt="Goa">
+
+    <h2>GOA</h2>
+
+    <p>Goa is a famous tourist place with beautiful beaches.</p>
+
+    <button>Visit</button>
+
+</div>
+    <style>
+        .card{
+            width: 250px;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 50px auto;
+            text-align: center;
+            background-color: brown;
+        }
+
+        img{
+            width: 200px;
+            border-radius: 10px;
+        }
+        h2{
+            color: blueviolet;
+        }
+        h2::before{
+            content: "*";
+        }
+
+
+        button{
+            padding: 5px 10px;
+        }
+
+        button:hover{
+            background-color: rgb(14, 50, 62);
+        }
+
+        .card:hover{
+            background-color: rgb(13, 111, 57);
+        }
+    </style>
+
+</body>
+</html>
