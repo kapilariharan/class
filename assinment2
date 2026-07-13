@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Admission Form</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: lightgray;
+        }
+        form{
+            width: 300px;  
+            background-color: white;
+            padding: 100px;
+        
+        }
+        input, select{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input[type="submit"]{
+            background-color: rgb(46, 22, 233);
+            color: white;
+            padding: 8px;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(15, 208, 15);
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>College Admission Form</h2>
+
+<form>
+
+Student Name<br>
+<input type="text"><br>
+Father Name<br>
+<input type="text"><br>
+Email<br>
+<input type="email"><br>
+Contact Number<br>
+<input type="text"><br>
+Course<br>
+<select>
+    <option>BCA</option>
+    <option>B.Sc IT</option>
+    <option>B.Com</option>
+    <option>MCA</option>
+</select><br>
+
+Gender<br>
+<input type="radio" name="g"> Male
+<input type="radio" name="g"> Female
+<input type="radio" name="g"> Other
+
+<br><br>
+
+Address<br>
+<textarea rows="7"></textarea><br>
+
+<input type="submit" >
+
+</form>
+
+</body>
+</html>
