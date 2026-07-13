@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Cards</title>
+</head>
+<body>
+
+<div class="box">
+    <img src="C:\Users\user\OneDrive\Pictures\Screenshots\Screenshot 2026-07-13 142651.png">
+    <h3>Shoes</h3>
+    <p>₹699</p>
+    <button>Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="C:\Users\user\OneDrive\Pictures\Screenshots\Screenshot 2026-07-13 142715.png">
+    <h3>Watch</h3>
+    <p>₹1499</p>
+    <button>Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="C:\Users\user\OneDrive\Pictures\Screenshots\Screenshot 2026-07-13 142857.png">
+    <h3>Bag</h3>
+    <p>₹799</p>
+    <button>Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="C:\Users\user\OneDrive\Pictures\Screenshots\Screenshot 2026-07-13 142803.png">
+    <h3>Mobile</h3>
+    <p>₹18999</p>
+    <button>Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="C:\Users\user\OneDrive\Pictures\Screenshots\Screenshot 2026-07-13 142923.png">
+    <h3>Headphone</h3>
+    <p>₹1599</p>
+    <button>Buy Now</button>
+</div>
+
+<div class="box">
+    <img src="C:\Users\user\OneDrive\Pictures\Screenshots\Screenshot 2026-07-13 142944.png">
+    <h3>Laptop</h3>
+    <p>₹35000</p>
+    <button>Buy Now</button>
+</div>
+<style>
+.box{
+    width:200px;
+    margin:10px;
+    border-radius:10px;
+    display:inline-table;
+    text-align:center;
+    background-color: beige;
+}
+
+.box::before{
+    content:"SALE";
+    color:rgb(237, 18, 18);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.box:hover{
+    background-color:rgb(135, 131, 131);
+}
+
+img{
+    width:150px;
+    border-radius:10px;
+}
+
+img:hover{
+    transform:scale(1.1);
+}
+
+button{
+    padding:5px 20px;
+}
+
+button:hover{
+    background-color:rgb(244, 222, 33);
+}
+body{
+    background-color: aqua;
+}
+</style>
+
+</body>
+</html>
